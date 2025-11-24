@@ -11,3 +11,11 @@ img2 = name2 + '.'+'png';
 
 document.querySelectorAll("img")[0].setAttribute('src', 'images/'+ img1);
 document.querySelectorAll("img")[1].setAttribute('src', 'images/' + img2);
+
+if(a > b){
+  document.querySelector('h1').innerHTML ='🚩Player one Won!';
+}else if(b > a){
+  document.querySelector('h1').innerHTML = 'Player two won🚩';
+}else{
+  document.querySelector('h1').innerHTML = "Draw try again 👌";
+}
