@@ -1,0 +1,3 @@
+#all the .ds_store file are ignored
+
+*.DS_Store
